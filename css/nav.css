@@ -1,0 +1,36 @@
+/*.nav{
+	background-color: black;
+	display:inline-block;
+	position: fixed;
+	width:100%;
+	top:0;
+	padding: 20px 10px 20px;
+	padding-top: 20px;
+	z-index:1;
+	height:65px;
+
+}
+
+.nav ul li {
+	display: inline-block;
+	}
+
+.nav ul li a {
+	
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+
+	
+}
+
+.nav ul {
+	list-style-type:none;
+}
+
+.nav a:hover {
+	color: #ff0;
+	text-decoration: none;
+	transition:color 600ms ease-in;
+	-webkit-transition:color 600ms ease-in;
+	-moz-transition:color 600ms ease-in;
+	}*/

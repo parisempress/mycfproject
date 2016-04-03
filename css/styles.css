@@ -1,0 +1,255 @@
+/*.jumbotron {
+	background-image: url("../img/backgroundphoto.jpg") ;
+	background-size:cover;
+}
+
+.jumbotron p {
+	color:white;
+}*/
+
+/****ContactPage****/
+
+* {box-sizing:border-box;}
+
+.projectcontact{
+	width:80%;
+	margin:0 auto;
+}
+
+.header h1{
+	text-align:center;
+}
+
+.image_wrapper{
+	display: inline-block;
+	float:center;		
+}
+
+.mycolumn{
+	display:inline-block;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+/*.snowflake{
+	background-image:url("../img/contactphotob.jpg");
+	background-size:100%;
+	background-position: center;
+}*/
+
+#ContactPage{
+    background-image:url("../img/contactphotob.jpg");
+/*Add a background image*/
+    background-attachment:fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size:cover;
+/*Have the background cover the entire div section*/
+    color:white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+   /* padding:100px;*/
+    padding-top:50px;
+    height:530px;
+    color:black;
+    text-align:left;
+    /*background-position:fixed;*/
+}
+
+.glyphicon-phone:hover{
+	background-color:yellow;
+}
+
+.glyphicon-envelope:hover{
+	background-color:yellow;
+}
+
+#modalembed{
+	height:500px;
+	width:100%;
+	padding:10px;
+}
+
+
+/****FAQPage****/
+
+.panelbody{
+	font-family:Open Sans,Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight:10;
+	background-color:#5AD4C2;
+}
+
+/****IndexPage****/
+#carousel-example-generic{
+	padding-top:65px;
+
+}
+
+.carousel-caption{
+	margin:0;
+	padding:0;
+	color:black;
+}
+
+.container-fluid{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.form-control{
+	width:80%;
+}
+
+/****AboutPage****/
+
+/** {box-sizing:border-box;}
+*/
+
+.container{
+	width:80%;
+	margin:0 auto;
+}
+
+.header h1{
+	text-align:center;
+}
+
+.image{
+	/*display: inline-block;*/
+	text-align:center;
+
+}
+
+.image img{
+	max-width:100%;
+}
+/*#myintro-column {
+	display: inline-block;
+float: left;
+margin-left:10px;
+margin-right:10px;
+/*background:blue;*/
+/*}*/
+
+.main_text{
+	clear:both;
+	padding-top:60px;
+}
+
+.column{
+	width:30%;
+}
+
+/*Typography*/
+
+/*.Introduction p {
+	font-family: Open Sans,Futura, Helvetica, Arial, sans-serif;
+font-size: 3em;
+font-weight:100;
+}
+
+#skills-column h3{
+	text-align:center;
+	text-transform: uppercase;
+	background-color: #5AD4C2;
+	color:#FFF;
+	padding-top:10px; 
+	padding-bottom:20px;*/
+}
+#skill-list{
+	margin-left:50px;
+}
+
+body {
+	background-color:#C0C0C0;
+	color:black;
+}
+
+body {
+  position:relative;
+}
+
+.Rochelle{
+	text-transform:uppercase;
+}
+
+.Rochelle a{
+	color:white;
+}
+
+h1{
+	color:black;
+}
+
+p{
+	color:black;
+}
+
+.navbar-inverse{
+	padding-right:30px
+}
+
+h3{
+	color:black;
+}
+
+#skill-list{
+	color:black;
+}
+
+h2 {
+	color:black;
+}
+
+h4{
+	color:black;
+}
+/*responsivesite*/
+
+/*@media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+}*/
+
+
+/******LearnMore Page*******/
+
+.learn-more{
+	text-align:left;
+	float:left;
+}
+
+.modal-button{
+	float:right;
+	padding:15px;
+}
+
+/*work page*/
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  color:#fff;
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+  display:none;
+}
+.proj-title {
+  font-weight:100;
+}
+
+/*Map*/
+#map {
+  height: 300px;
+  width: 100%;
+}
